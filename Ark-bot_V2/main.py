@@ -35,7 +35,7 @@ async def on_member_join(member):
     user_id = member.id
     await idiomarol(member, user_id)
 
-####    Verificar Los Nuevos Vouchw      ####
+####    Verificar Los Nuevos Vouchs      ####
 
 @bot.event
 async def check_for_new_rows():
