@@ -1,8 +1,8 @@
 TOKEN = ""
-VOUCH = 1151692649716264960
+VOUCH = (id_canal_vouch)
 
-SERVER = 687617790110072833
+SERVER = (id_server)
 
-QUOTADONE = 1152725932310790255
+QUOTADONE = (id_canal_cuota)
 
 servers_chanel_name = "servers"
