@@ -22,6 +22,7 @@ Comandos del Bot:
 ---------------
 - Mejora del funcionamiento y optimizacion de codigo
 - Ahora Vouch pasa a ser un comando para administradores en vez de ir de forma automatica
+  
 Comandos del Bot:
 - !ar (@usuario) (role) - añade el rol al usuario indicado y se almacena en un google sheet el nombre de discord y su id
 - !rr (@usuario) (role) - elimina el rol al usuario indicado y se elimina del google sheet el nombre de discord y su id
