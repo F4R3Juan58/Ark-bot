@@ -17,3 +17,11 @@ Comandos del Bot:
 ---------------
 Comandos del Bot:
 - !!vote (msg) (Opcion 1 | Opcion 2) (Tiempo) - sirve para que los admins hagan votaciones
+---------------
+| PetesBot V5 |
+---------------
+- Mejora del funcionamiento y optimizacion de codigo
+- Ahora Vouch pasa a ser un comando para administradores en vez de ir de forma automatica
+Comandos del Bot:
+- !ar (@usuario) (role) - añade el rol al usuario indicado y se almacena en un google sheet el nombre de discord y su id
+- !rr (@usuario) (role) - elimina el rol al usuario indicado y se elimina del google sheet el nombre de discord y su id
