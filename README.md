@@ -26,3 +26,8 @@ Comandos del Bot:
 Comandos del Bot:
 - !ar (@usuario) (role) - añade el rol al usuario indicado y se almacena en un google sheet el nombre de discord y su id
 - !rr (@usuario) (role) - elimina el rol al usuario indicado y se elimina del google sheet el nombre de discord y su id
+---------------
+| PetesBot V6 |
+---------------
+- Mejora del funcionamiento del bot
+- Optimización del codigo
