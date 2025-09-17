@@ -1,33 +1,84 @@
----------------
-| PetesBot V3 |
----------------
-Funciones del Bot:
-- Recibir los vouch para que los confirmen los admins
-- Asignar el rol de idioma que ha seleccionado en el vouch
-- Verificar que la cuota ha sido entregada y confirmarla
-- Actualización de la lista de servers por mapa
+# 🤖 Ark‑bot
 
-Comandos del Bot:
-- !bp - sirve para ver los mejores bps que tenemos y su coste
-- !costbp (numero) - sirve para calcular lo que cuesta craftear ese bp según la cantidad que has indicado
-- !quota (imagen) - sirve para mandar la cuota en el correspondiente canal para que los admins pueda verificarlo (una vez que recibes el mensaje de confirmacion en caso de robo no es responsabilidad tuya)
+Bot de Discord para administración de una tribu de **ARK**, centrado en la gestión de roles, vouch, cuotas y utilidades para la comunidad.
 
----------------
-| PetesBot V4 |
----------------
-Comandos del Bot:
-- !!vote (msg) (Opcion 1 | Opcion 2) (Tiempo) - sirve para que los admins hagan votaciones
----------------
-| PetesBot V5 |
----------------
-- Mejora del funcionamiento y optimizacion de codigo
-- Ahora Vouch pasa a ser un comando para administradores en vez de ir de forma automatica
-  
-Comandos del Bot:
-- !ar (@usuario) (role) - añade el rol al usuario indicado y se almacena en un google sheet el nombre de discord y su id
-- !rr (@usuario) (role) - elimina el rol al usuario indicado y se elimina del google sheet el nombre de discord y su id
----------------
-| PetesBot V6 |
----------------
-- Mejora del funcionamiento del bot
-- Optimización del codigo
+---
+
+## 📌 Características
+
+- ⚙️ Modularidad con *cogs* para separar funcionalidades
+- 🗳️ Sistema de vouch que los administradores pueden confirmar
+- 🎭 Asignación de roles de idioma y permisos
+- 📦 Gestión de cuotas y verificación de entregas
+- 🔢 Comandos útiles (`!bp`, `!costbp`, `!quota`, etc.)
+- 💾 Persistencia de datos en archivos planos (`txt`, `json`)
+
+---
+
+## 📂 Estructura del proyecto
+
+```
+Ark-bot/
+├── cogs/               # Extensiones/módulos del bot
+├── config.py           # Configuración: token, prefijo, etc.
+├── main.py             # Punto de entrada principal
+├── requirements.txt    # Dependencias de Python
+├── udiscordid.txt      # IDs de usuarios de Discord
+├── vote_vouch.txt      # Votos/vouch registrados
+└── README.md           # Esta documentación
+```
+
+---
+
+## 🚀 Instalación
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/F4R3Juan58/Ark-bot.git
+   cd Ark-bot
+   ```
+
+2. Crea un entorno virtual (opcional pero recomendado):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # Linux/Mac
+   venv\Scripts\activate    # Windows
+   ```
+
+3. Instala las dependencias:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Configura `config.py` con tu **token de Discord** y el prefijo de comandos.
+
+5. Ejecuta el bot:
+   ```bash
+   python main.py
+   ```
+
+---
+
+## ⚙️ Uso
+
+Comandos disponibles (ejemplos):
+- `!vouch @usuario` → enviar vouch
+- `!quota` → mostrar cuota pendiente
+- `!bp número` → mostrar información de blueprint
+- `!costbp número` → calcular coste
+
+---
+
+## 📜 Requisitos
+
+- Python 3.9+
+- Librería incluida en `requirements.txt` (ej. `discord.py`)
+- Token de bot de Discord
+- Permisos de administración en el servidor
+
+---
+
+## 👨‍💻 Autor
+
+Desarrollado por **Juan Gabriel Gallardo Martín**  
+🔗 [GitHub](https://github.com/F4R3Juan58)
