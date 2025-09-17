@@ -1,3 +1,0 @@
-discord
-google-oauth2-tool
-gspread
